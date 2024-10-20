@@ -1,3 +1,5 @@
+# Problemario-Unidad-2
+--Lopez Vargas Carlos Isai
 --Funciones 
 -- Ejercicio 1. Definir la función promedio3 tal que (promedio3 x y z) es
 -- la promedio aritmética de los números x, y y z. Por ejemplo,
@@ -554,4 +556,3 @@ inorden (Nodo x izq der) = inorden izq ++ [x] ++ inorden der
 posorden :: Arbol a -> [a]
 posorden Hoja = []
 posorden (Nodo x izq der) = posorden izq ++ posorden der ++ [x]
-# Problemario-Unidad-2
